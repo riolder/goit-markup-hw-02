@@ -13,9 +13,7 @@
 }
 .link {
   text-decoration: none;
-}
-.color {
-  color: var(--color-slate);
+  color: #434455;
 }
 /* body */
 body {
