@@ -13,9 +13,10 @@
 }
 .link {
   text-decoration: none;
+}
+.color {
   color: var(--color-slate);
 }
-
 /* body */
 body {
   font-family: 'Roboto', sans-serif;
