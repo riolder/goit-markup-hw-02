@@ -11,10 +11,6 @@
   --color-dairy: #fcfcfc;
 }
 
-.dr {
-  color: var(--color-slate);
-}
-
 .link {
   text-decoration: none;
 }
