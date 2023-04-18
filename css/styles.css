@@ -11,6 +11,9 @@
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
 }
+.link {
+  text-decoration: none;
+}
 
 /* body */
 body {
@@ -30,7 +33,7 @@ body {
   color: var(--color-slate);
 }
 /* logo */
-.link {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -93,8 +96,8 @@ body {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
   text-align: center;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--color-white);
 }
@@ -102,7 +105,7 @@ body {
   background-color: var(--color-navy-blue);
 }
 /* title-h2 */
-.text-style-header-2 {
+.text-style-header-b {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -112,9 +115,10 @@ body {
   color: var(--color-navy-blue);
 }
 /* title-h3 */
-.text-style-header-3 {
+.text-style-header-a {
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
 /* style for <P> */
@@ -175,4 +179,8 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
+  white-space: nowrap;
+  clip-path: inset 100%;
+  clip: rect 0 0 0 0;
+  overflow: hidden;
 }
