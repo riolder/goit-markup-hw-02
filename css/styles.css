@@ -13,6 +13,7 @@
 }
 .link {
   text-decoration: none;
+  color: var(--color-slate);
 }
 
 /* body */
