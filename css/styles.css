@@ -12,6 +12,7 @@
 }
 
 .link {
+  color: var(--color-slate);
   text-decoration: none;
 }
 /* body */
@@ -51,8 +52,8 @@ body {
 .links:focus {
   color: var(--color-ocean);
 }
-.link-2:hover,
-.link-2:focus {
+.link:hover,
+.link:focus {
   color: var(--color-ocean);
 }
 
@@ -162,15 +163,7 @@ body {
 
   color: var(--color-navy-blue);
 }
-.link-2 {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
-  color: var(--color-slate);
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
